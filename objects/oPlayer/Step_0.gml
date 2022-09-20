@@ -45,6 +45,7 @@ if (place_meeting(x,y+vsp, oWall)) {
 
 y = y + vsp;
 
+//Animation
 if (vsp == 0) {
 	sprite_index = sPlayer;
 } 
@@ -55,8 +56,4 @@ if (vsp < 0) {
 //Collision with enemy
 if ivulnerable > 0 {
     ivulnerable -= 1;
-}
-
-if (oEnemy.collision_ == true) {
-		shader_set(whiteShader);
 }

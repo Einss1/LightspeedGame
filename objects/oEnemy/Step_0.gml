@@ -19,3 +19,10 @@ if (place_meeting(x,y+vsp, oWall)) {
 }
 
 y = y + vsp;
+
+if (vsp == 0) {
+	sprite_index = sEnemy;
+} 
+if (vsp > 0) {
+	sprite_index = sEnemys;
+}
