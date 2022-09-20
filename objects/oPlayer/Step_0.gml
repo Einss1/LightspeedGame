@@ -52,4 +52,11 @@ if (vsp < 0) {
 	sprite_index = sPlayers;
 }
 
+//Collision with enemy
+if ivulnerable > 0 {
+    ivulnerable -= 1;
+}
 
+if (oEnemy.collision_ == true) {
+		shader_set(whiteShader);
+}

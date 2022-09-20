@@ -11,6 +11,7 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
+    {"id":{"name":"whiteShader","path":"shaders/whiteShader/whiteShader.yy",},"order":0,},
     {"id":{"name":"sPlayers","path":"sprites/sPlayers/sPlayers.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
