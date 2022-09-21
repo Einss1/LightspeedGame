@@ -15,12 +15,13 @@ if (place_meeting(x,y+vsp, oWall)) {
 		y = y + sign(vsp);
 	}
 	
-	vsp = 0;
+	vsp = -vsp;
 }
 
 y = y + vsp;
 
-if (vsp == 0) {
+//Animation
+if (vsp == 0 || vsp < 0) {
 	sprite_index = sEnemy;
 } 
 if (vsp > 0) {
