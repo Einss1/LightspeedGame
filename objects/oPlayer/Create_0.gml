@@ -5,7 +5,7 @@ controller = 0;
 hsp = 0;
 vsp = 0;
 flysp = 7;
-hp = 100;
+hp = 4;
 ivulnerable = 0;
 flash = 0;
 

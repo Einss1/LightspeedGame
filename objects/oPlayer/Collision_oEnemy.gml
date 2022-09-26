@@ -1,6 +1,6 @@
 if (ivulnerable == 0) {
 	flash = 6;
-	hp = hp - 20;
+	hp--;
 	ivulnerable = 120;
 } 
 

@@ -57,3 +57,8 @@ if (vsp < 0) {
 if ivulnerable > 0 {
     ivulnerable -= 1;
 }
+
+//Check health
+if (hp == 0) {
+	game_restart();
+};

@@ -7,3 +7,5 @@ flash = 0;
 
 alarm[0] = irandom_range(30, 120);
 
+//Gun
+firingdelay = 0;
