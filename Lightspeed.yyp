@@ -3,7 +3,9 @@
   "resourceVersion": "1.6",
   "name": "Lightspeed",
   "resources": [
+    {"id":{"name":"sBullet1","path":"sprites/sBullet1/sBullet1.yy",},"order":7,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"oEnemyBullet1","path":"objects/oEnemyBullet1/oEnemyBullet1.yy",},"order":7,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":2,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
@@ -13,6 +15,8 @@
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":3,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
+    {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},"order":6,},
+    {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},"order":6,},
     {"id":{"name":"whiteShader","path":"shaders/whiteShader/whiteShader.yy",},"order":0,},
     {"id":{"name":"sPlayers","path":"sprites/sPlayers/sPlayers.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
