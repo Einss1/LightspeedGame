@@ -21,9 +21,23 @@ if (place_meeting(x,y+vsp, oWall)) {
 y = y + vsp;
 
 //Animation
-if (vsp == 0 || vsp < 0) {
-	//sprite_index = sEnemy;
+if (vsp == 0 || vsp < 0) && (firingdelay > 0) {
+	sprite_index = sEnemy1;
+	image_index = 0;
+	image_speed = 0;
 } 
-if (vsp > 0) {
-	//sprite_index = sEnemys;
+if (vsp == 0 || vsp < 0) && (firingdelay == 0 || firingdelay <0) {
+	sprite_index = sEnemy1;
+	image_index = 1;
+} 
+if (vsp > 0) && (firingdelay > 0) {
+	sprite_index = sEnemy1s;
+	image_index = 0;
+	image_speed = 0;
 }
+
+if (vsp > 0) && (firingdelay == 0 || firingdelay < 0) {
+	sprite_index = sEnemy1s;
+	image_index = 1;
+}
+

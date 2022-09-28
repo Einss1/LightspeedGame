@@ -19,6 +19,7 @@
     {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},"order":6,},
     {"id":{"name":"whiteShader","path":"shaders/whiteShader/whiteShader.yy",},"order":0,},
     {"id":{"name":"sPlayers","path":"sprites/sPlayers/sPlayers.yy",},"order":4,},
+    {"id":{"name":"sEnemy1s","path":"sprites/sEnemy1s/sEnemy1s.yy",},"order":8,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
