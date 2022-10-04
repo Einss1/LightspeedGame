@@ -1,5 +1,6 @@
 if (hp <= 0) {
 	instance_destroy();	
+	oPlayer.special_kills++;
 }
 
 firingdelay = firingdelay - 1;

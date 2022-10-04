@@ -32,6 +32,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemy2","path":"objects/oEnemy2/oEnemy2.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

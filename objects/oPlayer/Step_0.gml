@@ -59,6 +59,46 @@ if ivulnerable > 0 {
 }
 
 //Check health
-if (hp == 0) {
+if (hp <= 0) {
 	game_restart();
 };
+
+if (global_kills == 4) {
+	inst1 = instance_create_layer(200,200,"Enemy",oEnemy1);
+	inst2 = instance_create_layer(600,200,"Enemy",oEnemy1);
+	with (inst1) {
+		flash = 15;
+		image_angle = 180;
+	}
+	with (inst2) {
+		flash = 15;
+		image_angle = 180;
+	}
+	global_kills = 0;
+}
+
+if (special_kills == 2) {
+	inst1 = instance_create_layer(200,200,"Enemy",oEnemy);
+	inst2 = instance_create_layer(350,200,"Enemy",oEnemy);
+	inst3 = instance_create_layer(500,200,"Enemy",oEnemy);
+	inst4 = instance_create_layer(650,200,"Enemy",oEnemy);
+	
+	with (inst1) {
+		flash = 15;
+		image_angle = 180;
+	}
+		with (inst2) {
+		flash = 15;
+		image_angle = 180;
+	}
+		with (inst3) {
+		flash = 15;
+		image_angle = 180;
+	}
+		with (inst4) {
+		flash = 15;
+		image_angle = 180;
+	}
+	
+	special_kills = 0;
+}
