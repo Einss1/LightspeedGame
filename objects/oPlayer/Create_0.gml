@@ -13,7 +13,7 @@ flash = 0;
 firingdelay = 0;
 
 //Room
-global_kills = 0;
-special_kills = 0;
+round1_kills = 0;
+round2_kills = 0;
 
 

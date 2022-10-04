@@ -5,7 +5,7 @@ hsp = 0;
 hp = 4;
 flash = 0;
 
-alarm[0] = irandom_range(30, 120);
+alarm[0] = irandom_range(0, 120);
 
 //Gun
 firingdelay = 0;

@@ -19,6 +19,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":3,},
     {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},"order":5,},
+    {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":14,},
     {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},"order":6,},
     {"id":{"name":"whiteShader","path":"shaders/whiteShader/whiteShader.yy",},"order":0,},
     {"id":{"name":"sPlayers","path":"sprites/sPlayers/sPlayers.yy",},"order":4,},
